@@ -2,7 +2,7 @@ const displayName = document.getElementById('displayName');
         const messageContainer = document.getElementById('messageContainer');
         const nextPageButton = document.getElementById('nextPageButton');
         const loveEffect = document.querySelector('.love-effect');
-const nextPageButton = document.getElementById('nextPageButton');
+
 
         const crushName = "Lintang-ku "; // Ganti dengan nama pacarmu
         const messages = [
