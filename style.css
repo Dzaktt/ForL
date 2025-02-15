@@ -162,22 +162,25 @@ body {
   }
 }
 
-#nextPageButton {
-  margin-top: 30px;
+.next-page-button {
+  position: relative;
+  z-index: 100; /* Pastikan di atas elemen lain */
+  display: inline-block;
   padding: 15px 30px;
   font-size: 1.2em;
   color: #fff;
   background-color: #ff4d4d;
-  border: none;
   border-radius: 50px;
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-#nextPageButton:hover {
+.next-page-button:hover {
   background-color: #e60000;
   transform: scale(1.1);
 }
+
 
 /* Button shake animation */
 @keyframes shake {
